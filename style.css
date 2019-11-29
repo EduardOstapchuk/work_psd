@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+
+* {
+  color: #4a5d8b;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-image: url(img/background.png);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  padding: 0 47px;
+  box-sizing: border-box;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #4a5d8b60;
+}
+
+#menu {
+  display: flex;
+  justify-content: space-between;
+  height: 49px;
+  align-items: flex-end;
+}
+
+nav {
+  width: 50%;
+  display: inherit;
+  justify-content: inherit;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content > div,
+img {
+  height: 100%;
+}
+
+img {
+  width: 450px;
+  height: 300px;
+  margin-right: 55px;
+}
+.content > div {
+  width: 50%;
+  max-width: 380px;
+}
+
+h1 {
+  font-size: 46px;
+}
+
+p {
+  font-size: 20px;
+}
+
+button {
+  background: #b3eaff;
+  border-radius: 15px;
+  height: 32px;
+  width: 120px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+button:active {
+  background: #b3eaff80;
+  color: black;
+}
+
+.content div div button:first-child {
+  margin-right: 30px;
+}
+
+#social {
+  height: 50px;
+}
+
+#social img {
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+  cursor: pointer;
+}
